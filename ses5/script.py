@@ -17,7 +17,6 @@ def locate_image(e):
     img_url = img_url[1]
     img_url_list.append(img_url)
 
-
 for e in text_list:
     if 'src' in e:
         locate_image(e)
