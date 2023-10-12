@@ -8,7 +8,3 @@ So "library code" and "user code"
 
 """
 
-class Number:
-
-    def __init__(self, value):
-            self.x = value
